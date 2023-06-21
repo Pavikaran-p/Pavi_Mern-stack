@@ -1,0 +1,26 @@
+CREATE TABLE customers(
+	orderId 	INT,
+  	customerId 	INT,
+  	orderDate 	DATE,
+  	TotalAmount DECIMAL(10)
+);
+
+INSERT INTO customers VALUES (1,10,'2023-01-01',300);
+INSERT INTO customers VALUES (2,10,'2023-01-01',300);
+INSERT INTO customers VALUES (3,10,'2023-01-01',300);
+INSERT INTO customers VALUES (4,10,'2023-01-01',300);
+INSERT INTO customers VALUES (5,10,'2023-01-01',300);
+INSERT INTO customers VALUES (6,10,'2023-01-01',300);
+
+CREATE TABLE  Student (admission_no, first_name, last_name, age, city);
+
+INSERT INTO  Student VALUES (1,'Luisa', 'Evans', 13, 'Texas');   
+INSERT INTO  Student VALUES (2, 'Paul', 'Ward', 15, 'Alaska');
+INSERT INTO  Student VALUES (35, 'Peter', 'Bennett', 14, 'California');
+INSERT INTO  Student VALUES (46,'Carlos', 'Patterson', 17, 'New York');     
+INSERT INTO  Student VALUES (5, 'Rose', 'Huges', 16, 'Florida');
+INSERT INTO  Student VALUES (6, 'Marielia', 'Simmons', 15, 'Arizona');
+
+SELECT customers.orderId,Student.admission_no
+FROM customers
+OUTER JOIN Student ON customers.orderId=Student.admission_no;

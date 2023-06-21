@@ -1,0 +1,81 @@
+[{
+  "_id": {
+    "$oid": "64917a8769e29dd0de740772"
+  },
+  "name": "Swift",
+  "Model": "Dts",
+  "Rentuser": 1,
+  "Mileage": 20
+},
+{
+  "_id": {
+    "$oid": "64917a8769e29dd0de740773"
+  },
+  "name": "Mahendra",
+  "Model": "bts",
+  "Rentuser": 2,
+  "Mileage": 24
+},
+{
+  "_id": {
+    "$oid": "64917bd569e29dd0de740774"
+  },
+  "name": "Benz",
+  "Model": "zs",
+  "Rentuser": 1,
+  "Mileage": 20
+},
+{
+  "_id": {
+    "$oid": "64917bd569e29dd0de740775"
+  },
+  "name": "toyota",
+  "Model": "bts",
+  "Rentuser": 2,
+  "Mileage": 14
+},
+{
+  "_id": {
+    "$oid": "64917bd569e29dd0de740776"
+  },
+  "name": "azire",
+  "Model": "whv",
+  "Rentuser": 3,
+  "Mileage": 20
+},
+{
+  "_id": {
+    "$oid": "64917bd569e29dd0de740777"
+  },
+  "name": "Audi",
+  "Model": "Dts",
+  "Rentuser": 4,
+  "Mileage": 21
+},
+{
+  "_id": {
+    "$oid": "64917bd569e29dd0de740778"
+  },
+  "name": "jkv",
+  "Model": "nvv",
+  "Rentuser": 1,
+  "Mileage": 10
+},
+{
+  "_id": {
+    "$oid": "64917bd569e29dd0de740779"
+  },
+  "name": "volkswagen",
+  "Model": "vol",
+  "Rentuser": 4,
+  "Mileage": 20
+},
+{
+  "_id": {
+    "$oid": "64917bd569e29dd0de74077a"
+  },
+  "name": "eventy",
+  "Model": "mzn",
+  "Rentuser": 1,
+  "Mileage": 35
+}]
